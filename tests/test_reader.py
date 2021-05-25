@@ -6,5 +6,5 @@ def test_read_vcf():
     print(vcf)
 
 def test_read_mm():
-    adata = reader.read_mat("tests/data/test_consensus.mtx", "tests/data/test.vcf")
+    adata = reader.read_mm("tests/data/test_consensus.mtx", "tests/data/test.vcf")
     print(adata) 
